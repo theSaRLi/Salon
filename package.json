@@ -1,0 +1,24 @@
+{
+  "name": "Salon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier \"src/**/*.{html,sass}\" --write",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theSaRLi/Salon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theSaRLi/Salon/issues"
+  },
+  "homepage": "https://github.com/theSaRLi/Salon#readme",
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  }
+}
