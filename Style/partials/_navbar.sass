@@ -1,17 +1,106 @@
+#js-navbar-toggle
+    width: 60px
+    height: 45px
+    position: relative
+    margin: 50px auto
+    -webkit-transform: rotate(0deg)
+    -moz-transform: rotate(0deg)
+    -o-transform: rotate(0deg)
+    transform: rotate(0deg)
+    -webkit-transition: .5s ease-in-out
+    -moz-transition: .5s ease-in-out
+    -o-transition: .5s ease-in-out
+    transition: .5s ease-in-out
+    cursor: pointer
+
+#js-navbar-toggle
+    span 
+        display: block
+        position: absolute
+        height: 9px
+        width: 100%
+        background: #d3531a
+        border-radius: 9px
+        opacity: 1
+        left: 0
+        -webkit-transform: rotate(0deg)
+        -moz-transform: rotate(0deg)
+        -o-transform: rotate(0deg)
+        transform: rotate(0deg)
+        -webkit-transition: .25s ease-in-out
+        -moz-transition: .25s ease-in-out
+        -o-transition: .25s ease-in-out
+        transition: .25s ease-in-out
+
+#js-navbar-toggle 
+    span:nth-child(1) 
+	    top: 0px
+  
+  
+#js-navbar-toggle 
+    span:nth-child(2)
+        top: 18px
+#js-navbar-toggle 
+    span:nth-child(3) 
+        top: 18px
+  
+  
+#js-navbar-toggle 
+    span:nth-child(4) 
+        top: 36px
+  
+  
+#js-navbar-toggle.open 
+    span:nth-child(1) 
+        top: 18px
+        width: 0%
+        left: 50%
+  
+  
+#js-navbar-toggle.open 
+    span:nth-child(2) 
+        -webkit-transform: rotate(45deg)
+        -moz-transform: rotate(45deg)
+        -o-transform: rotate(45deg)
+        transform: rotate(45deg)
+  
+  
+#js-navbar-toggle.open 
+    span:nth-child(3) 
+        -webkit-transform: rotate(-45deg)
+        -moz-transform: rotate(-45deg)
+        -o-transform: rotate(-45deg)
+        transform: rotate(-45deg)
+  
+  
+#js-navbar-toggle.open 
+    span:nth-child(4) 
+        top: 18px
+        width: 0%
+        left: 50%
+  
+    
 .navbar 
     font-size: 18px
-   
-
+    background-color: $color-primary
+    
+    
 i 
     color: black
 
 .main-nav
     list-style-type: none
     display: none
+   
 
 
 .active
     display: block
+    height: 100%
+    position: fixed
+    background-color: wheat
+    z-index: 1000
+   
 
 
 .main-nav li
@@ -19,7 +108,7 @@ i
     margin: 15px auto
 
 
-.nav-links, 
+.nav-links 
     text-decoration: none 
     color: rgba(255, 255, 255, 0.7)
 
@@ -27,10 +116,10 @@ i
 
 /*Toggle Button*/
 
-.navbar-toggle
+/*.navbar-toggle
     position: absolute
     top: 10px 
     right: 20px
     cursor: pointer
     color: rgba(255, 255, 255, 0.8)
-    font-size: 24px
+    font-size: 24px*/
