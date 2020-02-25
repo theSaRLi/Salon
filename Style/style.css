@@ -129,6 +129,8 @@ i {
   position: fixed;
   background-color: wheat;
   z-index: 1000;
+  -webkit-transition: max-height 284ms ease 0s;
+  transition: max-height 284ms ease 0s;
 }
 
 .main-nav li {
